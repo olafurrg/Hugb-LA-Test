@@ -4,10 +4,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <script src="./index.js"> </script>
+
         <title> TicTacToe </title>
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="Index.css">
+        <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
     <body>
         <h1> Welcome to TicTacToe</h1>
@@ -19,7 +19,7 @@
 
             <table>
                 <tr>
-                <td onclick="whereToPlace(this.id)" id="1"></td>
+                <td onclick="whereToPlace(this.id)" id="1"> </td>
                 <td onclick="whereToPlace(this.id)" id="2"> </td>
                 <td onclick="whereToPlace(this.id)" id="3"> </td>
               </tr>
@@ -48,6 +48,7 @@
         </ul>
 
         <div id="playAgain"></div>
+        <script src="./logic.js"> </script>
     </body>
 
 </html>

@@ -1,1 +1,1 @@
-web: node TicTacToe.js
+web: node mainIndex.js

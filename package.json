@@ -9,15 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThePowerRangers/LateTermAssignment.git"
+    "url": "git+https://github.com/olafurrg/Hugb-LA-Test.git"
   },
-  "author": "PowerRangers",
+  "author": "Olafur",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ThePowerRangers/LateTermAssignment/issues"
+    "url": "https://github.com/olafurrg/Hugb-LA-Test/issues"
   },
-  "homepage": "https://github.com/ThePowerRangers/LateTermAssignment#readme",
+  "homepage": "https://github.com/olafurrg/Hugb-LA-Test#readme",
   "devDependencies": {
+    "express": "^4.16.4",
     "jest": "^23.6.0"
   }
 }

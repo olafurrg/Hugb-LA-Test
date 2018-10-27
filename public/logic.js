@@ -1,6 +1,6 @@
 var playerXWins = 0;
 var playerOWins = 0;
-//var numberOfDraws = 0;
+var numberOfDraws = 0;
 
 var gameOver = false;
 var turnCounter = 0;
@@ -114,8 +114,8 @@ function  playAgain(){
     }
     else if(turnCounter == 9){
       //It is a Draw
-      //numberOfDraws++;
-      //document.getElementById("Draws").innerHTML = ("Draws: " + numberOfDraws);
+      numberOfDraws++;
+      document.getElementById("Draws").innerHTML = ("Draws: " + numberOfDraws);
       document.getElementById("currentPlayer").innerHTML = ("This game has ended in a Draw");
       return true;
     }
