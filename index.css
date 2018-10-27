@@ -1,0 +1,45 @@
+/*Index.css*/
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 5%;
+  width: 551px;
+  -webkit-user-select: none;
+}
+
+
+td {
+    height: 175px;
+    width: 175px;
+    text-align: center;
+    font-size: 120px;
+    border: 2px solid #cccccc;
+    -webkit-border-radius: 10px;
+}
+
+h1 {
+  font-size:40px;
+  text-align:center;
+  font-family:monospace;
+}
+
+li {
+  display:inline;
+  color:blue;
+  margin-top:10%;
+  margin-right:5%;
+  margin-left:12%;
+  margin-bottom: 10%;
+  font-size:20px;
+  text-align:center;
+}
+
+li p {
+  display:inline;
+}
+
+img {
+  height: 120px;
+    width: 120x;
+}

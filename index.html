@@ -1,0 +1,53 @@
+<!--Index.html-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="./index.js"> </script>
+        <title> TicTacToe </title>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Index.css">
+    </head>
+    <body>
+        <h1> Welcome to TicTacToe</h1>
+
+        <h1 id="currentPlayer">Player x, it's your turn!</h1>
+
+        <div class="container">
+        <form method="post" action="/turn"  id ="turnForm" class="form-inline" role="form">
+
+            <table>
+                <tr>
+                <td onclick="whereToPlace(this.id)" id="1"></td>
+                <td onclick="whereToPlace(this.id)" id="2"> </td>
+                <td onclick="whereToPlace(this.id)" id="3"> </td>
+              </tr>
+              <tr>
+                <td onclick="whereToPlace(this.id)" id="4"> </td>
+                <td onclick="whereToPlace(this.id)" id="5"> </td>
+                <td onclick="whereToPlace(this.id)" id="6"> </td>
+              </tr>
+              <tr>
+                <td onclick="whereToPlace(this.id)" id="7"> </td>
+                <td onclick="whereToPlace(this.id)" id="8"> </td>
+                <td onclick="whereToPlace(this.id)" id="9"> </td>
+              </tr>
+            </table>
+
+        </form>
+        </div>
+
+         <ul>
+
+            <li><img class= "players" src="johndoe.jpeg" /><p id="Xwins">0 wins</p></li>
+            <li><img class= "players" src="janedoe.jpeg"/><p id="Owins"> 0 wins</p></li>
+            <li id="Draws">Draws: 0</li>
+            <button class="playAgain" onclick="playAgain()">New Game</button>
+
+        </ul>
+
+        <div id="playAgain"></div>
+    </body>
+
+</html>

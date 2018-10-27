@@ -1,0 +1,23 @@
+{
+  "name": "latetermassignment",
+  "version": "1.0.0",
+  "description": "Tic-tac-toe",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePowerRangers/LateTermAssignment.git"
+  },
+  "author": "PowerRangers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePowerRangers/LateTermAssignment/issues"
+  },
+  "homepage": "https://github.com/ThePowerRangers/LateTermAssignment#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
