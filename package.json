@@ -2,7 +2,7 @@
   "name": "latetermassignment",
   "version": "1.0.0",
   "description": "Tic-tac-toe",
-  "main": "index.js",
+  "main": "mainindex.js",
   "scripts": {
     "test": "jest",
     "watch": "jest --watchall"
