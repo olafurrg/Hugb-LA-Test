@@ -4,6 +4,7 @@
   "description": "Tic-tac-toe",
   "main": "mainindex.js",
   "scripts": {
+    "start": "nodemon -e js",
     "test": "jest",
     "watch": "jest --watchall"
   },
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/olafurrg/Hugb-LA-Test#readme",
   "devDependencies": {
     "body-parser": "^1.18.3",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.5"
   }
 }

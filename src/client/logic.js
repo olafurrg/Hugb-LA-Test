@@ -1,7 +1,6 @@
 var playerXWins = 0;
 var playerOWins = 0;
 var numberOfDraws = 0;
-
 var gameOver = false;
 var turnCounter = 0;
 
@@ -11,7 +10,7 @@ function  playAgain(){
     for(var i = 1; i < 10; i++){
       document.getElementById(i.toString()).innerText = '';
     }
-    document.getElementById(currentPlayer).innerHTML = "Player x, it's your turn!";
+    document.getElementById(currentPlayer).innerHTML = "Player X, it's your turn!";
   }
 
   function whosTurn(){
@@ -23,14 +22,10 @@ function  playAgain(){
     }
   }
 
-  function availableToPlace(boardStatus){
-    return (boardStatus == '');
-  }
-
   function whereToPlace(posistionId){
     if(!gameOver){
       var where = document.getElementById(posistionId);
-      if(availableToPlace(where.innerText)){
+      if(where.innerText == ''){
         var who = whosTurn();
         turnCounter++;
         where.innerText = who;
@@ -100,14 +95,14 @@ function  playAgain(){
         //Implemtnt Score Board ?
         playerXWins++;
         document.getElementById("Xwins").innerHTML = (playerXWins + " wins");
-        document.getElementById("currentPlayer").innerHTML = ("PLayer: " + who + " has won!");
+        document.getElementById("currentPlayer").innerHTML = ("Player " + who + " has won!");
         return true;
       }
       else{
         //Implemtnt Score Board ?
         playerOWins++;
         document.getElementById("Owins").innerHTML = (playerOWins + " wins");
-        document.getElementById("currentPlayer").innerHTML = ("PLayer: " + who + " has won!");
+        document.getElementById("currentPlayer").innerHTML = ("Player " + who + " has won!");
         return true;
       }
       return true;
@@ -122,14 +117,13 @@ function  playAgain(){
       //Nobody has won and not a Draw
       return false;
   }
+  //Small change
 
 /*
 module.exports = {
-  playGame,
   checkWinner,
   whereToPlace,
-  availableToPlace,
-  turnLimit,
-  initializeGame,
-  reset,
-}*/
+  whosTurn,
+  playAgain
+}
+*/
