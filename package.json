@@ -13,13 +13,16 @@
   },
   "author": "Olafur",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  },
   "bugs": {
     "url": "https://github.com/olafurrg/Hugb-LA-Test/issues"
   },
   "homepage": "https://github.com/olafurrg/Hugb-LA-Test#readme",
   "devDependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
     "jest": "^23.6.0"
   }
 }
